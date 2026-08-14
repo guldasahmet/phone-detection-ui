@@ -17,7 +17,7 @@ from runtime import RuntimeConfig, VisionRuntime
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 WORKSPACE_ROOT = PROJECT_ROOT.parent
-DEFAULT_MODEL = Path("/usr/share/hailo-models/yolov8s_h8.hef")
+DEFAULT_MODEL = PROJECT_ROOT / "models" / "yolov8s_h8.hef"
 DEFAULT_LABELS = PROJECT_ROOT / "config" / "coco_labels.json"
 LIVE_WIDTH = 640
 LIVE_HEIGHT = 480

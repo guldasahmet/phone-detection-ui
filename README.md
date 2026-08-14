@@ -22,7 +22,7 @@ yalnız `CELL PHONE` sınıfını işler.
 Varsayılan model:
 
 ```text
-/usr/share/hailo-models/yolov8s_h8.hef
+models/yolov8s_h8.hef
 ```
 
 Model 80 COCO sınıfı üretir; uygulama diğer 79 sınıfı tracking öncesinde
